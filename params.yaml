@@ -1,10 +1,10 @@
 XGBRegressor:
   objective: 'reg:squarederror' 
-  colsample_bytree:  0.3
-  learning_rate:  0.1
-  max_depth:  6 
-  alpha:  10 
-  n_estimators:  200
+  colsample_bytree: 0.3
+  learning_rate: 0.1
+  max_depth: 6 
+  alpha: 10 
+  n_estimators: 200
 
 DROP_COLUMNS : ['product_id', 'month_year', 'total_price', 'product_name_lenght', 'product_description_lenght', 's','weekday','product_photos_qty', 'product_weight_g']
 CAT_COLUMNS : ['product_category_name']
