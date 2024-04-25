@@ -25,6 +25,8 @@ class DataPreprocessing:
             output_file_path = os.path.join(self.config.root_dir, "preprocessed_data.csv")
             df.to_csv(output_file_path, index=False)
             
+            logger.info(f"Dropped Features are:{self.config.drop_params}")
+            
             logger.info(f"Preprocessed data saved to: {output_file_path}")  
             
         except Exception as e:

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Machine Learning Price Optimization</title>
+<!-- Link to Google Fonts - Roboto -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 700;
+    }
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+<script>
+function validateForm() {
+    // Get input elements
+    var qty = document.getElementById("qty").value;
+    var freightPrice = document.getElementById("freight_price").value;
+    var unitPrice = document.getElementById("unit_price").value;
+    var productScore = document.getElementById("product_score").value;
+    var customers = document.getElementById("customers").value;
+    var month = document.getElementById("month").value;
+    var volume = document.getElementById("volume").value;
+
+    // Validate input values
+    if (parseFloat(qty) < 1 || parseFloat(qty) > 1000) {
+        alert("Quantity must be between 1 and 1000.");
+        return false;
+    }
+    if (parseFloat(freightPrice) < 0 || parseFloat(freightPrice) > 80) {
+        alert("Freight price must be between 0 and 80.");
+        return false;
+    }
+    if (parseFloat(unitPrice) < 0 || parseFloat(unitPrice) > 1000) {
+        alert("Unit price must be between 0 and 1000.");
+        return false;
+    }
+    if (parseFloat(productScore) < 1 || parseFloat(productScore) > 5) {
+        alert("Product score must be between 1 and 5.");
+        return false;
+    }
+    if (parseFloat(customers) < 1 || parseFloat(customers) > 10000) {
+        alert("Customers must be between 1 and 10000.");
+        return false;
+    }
+    if (parseFloat(month) < 1 || parseFloat(month) > 12) {
+        alert("Month must be between 1 and 12.");
+        return false;
+    }
+    if (parseFloat(volume) < 640 || parseFloat(volume) > 32736) {
+        alert("Volume must be between 640 and 32736.");
+        return false;
+    }
+
+    // If all validations pass, return true
+    return true;
+}
+</script>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Price Optimization Tool</h1>
+    <p>Enter product details to get price predictions</p>
+</header>
+
+<main>
+    <form onsubmit="return validateForm()" action="/predict" method="post">
+        <label for="product_category_name">Product Category:</label>
+        <select id="product_category_name" name="product_category_name" required>
+            <option value="">Select category...</option>
+            <option value="bed_bath_table">Bed & Bath</option>
+            <option value="garden_tools">Garden Tools</option>
+            <option value="consoles_games">Consoles & Games</option>
+            <option value="health_beauty">Health & Beauty</option>
+            <option value="cool_stuff">Cool Stuff</option>
+            <option value="perfumery">Perfumery</option>
+            <option value="computers_accessories">Computers & Accessories</option>
+            <option value="watches_gifts">Watches & Gifts</option>
+            <option value="furniture_decor">Furniture & Decor</option>
+        </select><br>
+        
+        <label for="qty">Quantity:</label>
+        <input type="text" id="qty" name="qty" required><br>
+        
+        <label for="freight_price">Freight Price (shipping cost):</label>
+        <input type="text" id="freight_price" name="freight_price" required><br>
+        
+        <label for="unit_price">Unit Price:</label>
+        <input type="text" id="unit_price" name="unit_price" required><br>
+        
+        <label for="product_score">Product Score:</label>
+        <input type="text" id="product_score" name="product_score" required><br>
+        
+        <label for="customers">Customers:</label>
+        <input type="text" id="customers" name="customers" required><br>
+        
+        <label for="weekend">Weekend:</label>
+        <select id="weekend" name="weekend" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br>
+        
+        <label for="holiday">Holiday:</label>
+        <select id="holiday" name="holiday" required>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select><br>
+        
+        <label for="month">Month:</label>
+        <input type="text" id="month" name="month" required><br>
+        
+        <label for="volume">Volume:</label>
+        <input type="text" id="volume" name="volume" required><br>
+
+        <label for="comp_1">Competitor_1 price:</label>
+        <input type="text" id="comp_1" name="comp_1" required>
+
+        <label for="comp_2">Competitor_2 price:</label>
+        <input type="text" id="comp_2" name="comp_2" required>
+
+        <label for="comp_3">Competitor_3 price:</label>
+        <input type="text" id="comp_3" name="comp_3" required>
+
+        <label for="ps1">Product score of Competitor_1 product:</label>
+        <input type="text" id="ps1" name="ps1" required>
+
+        <label for="ps2">Product score of Competitor_2 product:</label>
+        <input type="text" id="ps2" name="ps2" required>
+
+        <label for="ps3">Product score of Competitor_3 product:</label>
+        <input type="text" id="ps3" name="ps3" required>
+
+        <label for="fp1">Shipping cost of Competitor_1 products:</label>
+        <input type="text" id="fp1" name="fp1" required>
+
+        <label for="fp2">Shipping cost of Competitor_2 products:</label>
+        <input type="text" id="fp2" name="fp2" required>
+
+        <label for="fp3">Shipping cost of Competitor_3 products:</label>
+        <input type="text" id="fp3" name="fp3" required>
+        
+        <button type="submit">Predict Price</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024 Machine Learning Price Optimization</p>
+</footer>
+
+</body>
+</html>
