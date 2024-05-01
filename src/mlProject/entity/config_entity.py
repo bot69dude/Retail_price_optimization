@@ -42,10 +42,6 @@ class ModelTrainerConfig:
     n_estimators:  int
     target_column: str
     
-from dataclasses import dataclass
-from pathlib import Path
-
-
 @dataclass(frozen=True)
 class ModelEvaluationConfig:
     root_dir: Path
