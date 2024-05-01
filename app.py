@@ -36,7 +36,7 @@ def index():
             # Use the predict method to make predictions
             predict = obj.predict(input_data_df)
 
-            return render_template('results.html', prediction=predict)
+            return render_template('results.html', prediction=predict[0])
         
         except Exception as e:
             print('The Exception message is: ', e)
