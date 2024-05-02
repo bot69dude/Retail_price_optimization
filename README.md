@@ -96,8 +96,3 @@ Experimentation tracking for this project is available on [Dagshub](https://dags
 ## Docker Image
 The Dockerized project has been pushed to Docker Hub and is available at `nrithvik19461/prize_opt:latest`.
 
-## Contributors
-[N.Rithvik]
-
-## License
-This project is licensed under the MIT License.
