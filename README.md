@@ -90,8 +90,6 @@ To reproduce the project's results, follow these steps:
     docker run -p 8080:8080 nrithvik19461/prize_opt
     ```
 
-
-## Experimentation Tracking
 ## Experimentation Tracking
 Experimentation tracking for this project is available on [Dagshub](https://dagshub.com/bot69dude/Retail_price_optimization.mlflow). You can view detailed experiment logs, metrics, and visualizations to understand the model's performance.
 
