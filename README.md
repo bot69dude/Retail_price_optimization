@@ -54,25 +54,25 @@ To reproduce the project's results, follow these steps:
     git clone https://github.com/bot69dude/Retail_price_optimization.git
     ```
 
-2.Create a conda environment after opening the repository
-
+2. Create a conda environment after opening the repository:
     ```bash
     conda create -n mlproj python=3.8 -y
     ```
-    
+
+3. Activate the conda environment:
     ```bash
     conda activate mlproj
     ```
-3.install the requirements
 
+4. Install the requirements and run application:
     ```bash
     pip install -r requirements.txt
     ```
-    
-    ```bash
-    # Finally run the following command
+
+   ```bash
     python app.py
     ```
+    
 
 4. Set up the MLflow tracking URI using the provided credentials:
     ```bash
