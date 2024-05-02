@@ -49,20 +49,57 @@ We propose a machine learning-based approach to optimize retail prices by levera
 ## Usage
 To reproduce the project's results, follow these steps:
 
-1. Clone the repository.
-2. Set up the MLflow tracking URI using the provided credentials.
-3. Run the script `script.py` to train the model and track the experiments.
-4. Dockerize the project using the provided Dockerfile.
-5. Push the Docker image to Docker Hub for deployment.
+1. Clone the repository:
+    ```
+    git clone https://github.com/bot69dude/Retail_price_optimization.git
+    ```
+
+2.Create a conda environment after opening the repository
+
+```bash
+conda create -n mlproj python=3.8 -y
+```
+
+```bash
+conda activate mlproj
+```
+3.install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+4. Set up the MLflow tracking URI using the provided credentials:
+    ```bash
+    export MLFLOW_TRACKING_URI=https://dagshub.com/bot69dude/Retail_price_optimization.mlflow
+    export MLFLOW_TRACKING_USERNAME=bot69dude
+    export MLFLOW_TRACKING_PASSWORD=559b04e28f7af9242d3e209229040403de58f073
+    ```
+    
+5. Pull the Docker image to Docker Hub for deployment.
+    ```bash
+    docker pull nrithvik19461/prize_opt
+    ```
+6. Run the Docker container:
+    ```bash
+    docker run -p 8080:8080 nrithvik19461/prize_opt
+    ```
+
 
 ## Experimentation Tracking
-Experimentation tracking for this project is available on Dagshub. You can view detailed experiment logs, metrics, and visualizations to understand the model's performance.
+## Experimentation Tracking
+Experimentation tracking for this project is available on [Dagshub](https://dagshub.com/bot69dude/Retail_price_optimization.mlflow). You can view detailed experiment logs, metrics, and visualizations to understand the model's performance.
 
 ## Docker Image
 The Dockerized project has been pushed to Docker Hub and is available at `nrithvik19461/prize_opt:latest`.
 
 ## Contributors
-[Your Name/Team Name]
+[N.Rithvik]
 
 ## License
 This project is licensed under the MIT License.
