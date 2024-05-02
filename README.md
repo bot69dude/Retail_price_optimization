@@ -56,23 +56,23 @@ To reproduce the project's results, follow these steps:
 
 2.Create a conda environment after opening the repository
 
-```bash
-conda create -n mlproj python=3.8 -y
-```
-
-```bash
-conda activate mlproj
-```
+    ```bash
+    conda create -n mlproj python=3.8 -y
+    ```
+    
+    ```bash
+    conda activate mlproj
+    ```
 3.install the requirements
 
-```bash
-pip install -r requirements.txt
-```
-
-```bash
-# Finally run the following command
-python app.py
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+    ```bash
+    # Finally run the following command
+    python app.py
+    ```
 
 4. Set up the MLflow tracking URI using the provided credentials:
     ```bash
