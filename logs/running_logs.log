@@ -1,0 +1,544 @@
+[2024-04-24 19:29:41,323: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-24 19:29:41,328: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 19:29:41,334: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 19:29:41,347: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-24 19:29:41,351: INFO: common: created directory at: artifacts]
+[2024-04-24 19:29:41,352: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-24 19:29:41,353: INFO: data_ingestion: File already exists of size: ~ 24 KB]
+[2024-04-24 19:29:41,356: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-24 19:29:41,356: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-24 19:29:41,364: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 19:29:41,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 19:29:41,376: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-24 19:29:41,377: INFO: common: created directory at: artifacts]
+[2024-04-24 19:29:41,378: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-24 19:29:41,448: INFO: stage_02_data_validation: Data validation status: True]
+[2024-04-24 19:29:41,448: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-04-24 19:29:41,448: INFO: main: >>>>>> stage Data Preprocessing stage started <<<<<<]
+[2024-04-24 19:29:41,469: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 19:29:41,473: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 19:29:41,479: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-24 19:29:41,482: INFO: common: created directory at: artifacts]
+[2024-04-24 19:29:41,483: INFO: common: created directory at: artifacts/data_preprocessing]
+[2024-04-24 19:29:41,523: INFO: data_preprocessing: Preprocessed data saved to: artifacts/data_preprocessing\preprocessed_data.csv]
+[2024-04-24 19:29:41,524: INFO: main: >>>>>> stage Data Preprocessing stage completed <<<<<<
+
+x==========x]
+[2024-04-24 19:29:41,524: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-04-24 19:29:41,537: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 19:29:41,543: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 19:29:41,552: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-24 19:29:41,553: INFO: common: created directory at: artifacts]
+[2024-04-24 19:29:41,554: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-24 19:29:41,598: INFO: data_transformation: Splited data into training and test sets]
+[2024-04-24 19:29:41,598: INFO: data_transformation: (507, 21)]
+[2024-04-24 19:29:41,598: INFO: data_transformation: (169, 21)]
+[2024-04-24 19:29:41,598: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-04-24 19:29:41,598: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-04-24 19:29:41,598: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 19:29:41,611: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 19:29:41,616: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-24 19:29:41,616: INFO: common: created directory at: artifacts]
+[2024-04-24 19:29:41,631: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-24 19:29:42,554: INFO: stage_05_model_training: Model trained successfully and saved at: artifacts/model_trainer\model.joblib]
+[2024-04-24 19:29:42,555: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-04-24 19:29:42,556: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-04-24 19:29:42,571: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-24 19:29:42,576: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-24 19:29:42,589: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-24 19:29:42,591: INFO: common: created directory at: artifacts]
+[2024-04-24 19:29:42,592: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-04-24 19:29:43,888: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-04-24 19:29:50,833: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:17:15,184: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-25 10:17:15,201: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:17:15,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:17:15,230: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:17:15,232: INFO: common: created directory at: artifacts]
+[2024-04-25 10:17:15,233: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-25 10:17:15,235: INFO: data_ingestion: File already exists of size: ~ 24 KB]
+[2024-04-25 10:17:15,256: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:17:15,261: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-25 10:17:15,269: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:17:15,271: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:17:15,278: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:17:15,280: INFO: common: created directory at: artifacts]
+[2024-04-25 10:17:15,281: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-25 10:17:15,339: INFO: stage_02_data_validation: Data validation status: True]
+[2024-04-25 10:17:15,339: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:17:15,339: INFO: main: >>>>>> stage Data Preprocessing stage started <<<<<<]
+[2024-04-25 10:17:15,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:17:15,354: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:17:15,361: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:17:15,364: INFO: common: created directory at: artifacts]
+[2024-04-25 10:17:15,366: INFO: common: created directory at: artifacts/data_preprocessing]
+[2024-04-25 10:17:15,404: INFO: data_preprocessing: Preprocessed data saved to: artifacts/data_preprocessing\preprocessed_data.csv]
+[2024-04-25 10:17:15,405: INFO: main: >>>>>> stage Data Preprocessing stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:17:15,405: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-04-25 10:17:15,416: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:17:15,419: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:17:15,421: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:17:15,432: INFO: common: created directory at: artifacts]
+[2024-04-25 10:17:15,434: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-25 10:17:15,479: INFO: data_transformation: Splited data into training and test sets]
+[2024-04-25 10:17:15,479: INFO: data_transformation: (507, 20)]
+[2024-04-25 10:17:15,479: INFO: data_transformation: (169, 20)]
+[2024-04-25 10:17:15,479: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:17:15,479: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-04-25 10:17:15,479: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:17:15,492: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:17:15,501: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:17:15,503: INFO: common: created directory at: artifacts]
+[2024-04-25 10:17:15,504: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-25 10:17:16,319: INFO: stage_05_model_training: Model trained successfully and saved at: artifacts/model_trainer\model.joblib]
+[2024-04-25 10:17:16,319: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:17:16,319: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-04-25 10:17:16,329: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:17:16,336: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:17:16,345: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:17:16,345: INFO: common: created directory at: artifacts]
+[2024-04-25 10:17:16,345: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-04-25 10:17:17,658: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-04-25 10:17:27,240: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:39:55,864: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-25 10:39:55,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:39:55,871: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:39:55,871: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:39:55,871: INFO: common: created directory at: artifacts]
+[2024-04-25 10:39:55,871: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-25 10:39:55,871: INFO: data_ingestion: File already exists of size: ~ 24 KB]
+[2024-04-25 10:39:55,883: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:39:55,885: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-04-25 10:39:55,888: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:39:55,890: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:39:55,899: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:39:55,900: INFO: common: created directory at: artifacts]
+[2024-04-25 10:39:55,901: INFO: common: created directory at: artifacts/data_validation]
+[2024-04-25 10:39:55,969: INFO: stage_02_data_validation: Data validation status: True]
+[2024-04-25 10:39:55,969: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:39:55,969: INFO: main: >>>>>> stage Data Preprocessing stage started <<<<<<]
+[2024-04-25 10:39:55,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:39:55,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:39:55,991: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:39:55,992: INFO: common: created directory at: artifacts]
+[2024-04-25 10:39:55,992: INFO: common: created directory at: artifacts/data_preprocessing]
+[2024-04-25 10:39:56,039: INFO: data_preprocessing: Dropped Features are:['product_id', 'month_year', 'total_price', 'product_name_lenght', 'product_description_lenght', 's', 'weekday', 'product_photos_qty', 'product_weight_g', 'year']]
+[2024-04-25 10:39:56,039: INFO: data_preprocessing: Preprocessed data saved to: artifacts/data_preprocessing\preprocessed_data.csv]
+[2024-04-25 10:39:56,039: INFO: main: >>>>>> stage Data Preprocessing stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:39:56,039: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-04-25 10:39:56,057: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:39:56,060: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:39:56,061: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:39:56,069: INFO: common: created directory at: artifacts]
+[2024-04-25 10:39:56,070: INFO: common: created directory at: artifacts/data_transformation]
+[2024-04-25 10:39:56,113: INFO: data_transformation: Splited data into training and test sets]
+[2024-04-25 10:39:56,113: INFO: data_transformation: (507, 20)]
+[2024-04-25 10:39:56,120: INFO: data_transformation: (169, 20)]
+[2024-04-25 10:39:56,121: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:39:56,123: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-04-25 10:39:56,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:39:56,130: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:39:56,138: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:39:56,139: INFO: common: created directory at: artifacts]
+[2024-04-25 10:39:56,140: INFO: common: created directory at: artifacts/model_trainer]
+[2024-04-25 10:39:56,914: INFO: stage_05_model_training: Model trained successfully and saved at: artifacts/model_trainer\model.joblib]
+[2024-04-25 10:39:56,914: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-04-25 10:39:56,914: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-04-25 10:39:56,914: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 10:39:56,932: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 10:39:56,946: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 10:39:56,946: INFO: common: created directory at: artifacts]
+[2024-04-25 10:39:56,946: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-04-25 10:39:58,080: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-04-25 10:40:04,959: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-25 12:17:34,753: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.251:8080]
+[2024-04-25 12:17:34,754: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-25 12:18:26,009: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:18:26] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:18:26,926: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:18:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-04-25 12:20:23,220: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:20:23] "GET /?product_category=garden_tools&qty=3&freight_price=4&unit_price=47.8&product_score=5&customers=75&weekend=1&holiday=1&month=8&volume=890&comp_1=45.9&comp_2=78.34&comp_3=45&ps1=4&ps2=3&ps3=4&fp1=0&fp2=0&fp3=0 HTTP/1.1" 200 -]
+[2024-04-25 12:21:06,746: INFO: _internal: 10.2.135.251 - - [25/Apr/2024 12:21:06] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:21:07,488: INFO: _internal: 10.2.135.251 - - [25/Apr/2024 12:21:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-04-25 12:23:02,995: INFO: _internal: 10.2.135.251 - - [25/Apr/2024 12:23:02] "GET /?product_category=bed_bath_table&qty=6&freight_price=5&unit_price=47.5&product_score=5&customers=34&weekend=1&holiday=1&month=7&volume=789&comp_1=56.5&comp_2=43.7&comp_3=89&ps1=4&ps2=3.5&ps3=4&fp1=0&fp2=0&fp3=0 HTTP/1.1" 200 -]
+[2024-04-25 12:23:49,137: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.251:8080]
+[2024-04-25 12:23:49,152: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-25 12:23:54,370: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:23:54] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:23:58,214: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:23:58] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:25:40,452: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:25:40] "GET /?product_category=bed_bath_table&qty=8&freight_price=9&unit_price=47.8&product_score=5&customers=34&weekend=1&holiday=1&month=8&volume=789&comp_1=56.5&comp_2=78.34&comp_3=45&ps1=4&ps2=3.5&ps3=5&fp1=0&fp2=0&fp3=0 HTTP/1.1" 200 -]
+[2024-04-25 12:29:08,160: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:29:08] "GET /?product_category=bed_bath_table&qty=8&freight_price=9&unit_price=47.8&product_score=5&customers=34&weekend=1&holiday=1&month=8&volume=789&comp_1=56.5&comp_2=78.34&comp_3=45&ps1=4&ps2=3.5&ps3=5&fp1=0&fp2=0&fp3=0/predict HTTP/1.1" 200 -]
+[2024-04-25 12:29:14,971: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:29:14] "GET /?product_category=bed_bath_table&qty=8&freight_price=9&unit_price=47.8&product_score=5&customers=34&weekend=1&holiday=1&month=8&volume=789&comp_1=56.5&comp_2=78.34&comp_3=45&ps1=4&ps2=3.5&ps3=5&fp1=0&fp2=0&fp3=0/predict HTTP/1.1" 200 -]
+[2024-04-25 12:29:15,858: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:29:15] "GET /?product_category=bed_bath_table&qty=8&freight_price=9&unit_price=47.8&product_score=5&customers=34&weekend=1&holiday=1&month=8&volume=789&comp_1=56.5&comp_2=78.34&comp_3=45&ps1=4&ps2=3.5&ps3=5&fp1=0&fp2=0&fp3=0/predict HTTP/1.1" 200 -]
+[2024-04-25 12:29:31,924: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:29:31] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:29:38,661: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:29:38] "GET /predict HTTP/1.1" 200 -]
+[2024-04-25 12:30:47,411: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:30:47] "GET /predict?product_category=garden_tools&qty=8&freight_price=4&unit_price=47.8&product_score=5&customers=34&weekend=1&holiday=1&month=8&volume=789&comp_1=56.5&comp_2=78.34&comp_3=45&ps1=4&ps2=3&ps3=5&fp1=0&fp2=5&fp3=0 HTTP/1.1" 200 -]
+[2024-04-25 12:43:59,045: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:43:59] "GET /predict?product_category=bed_bath_table&qty=4&freight_price=6&unit_price=46.7&product_score=5&customers=8&weekend=1&holiday=1&month=8&volume=780&comp_1=56.5&comp_2=78.34&comp_3=45&ps1=4&ps2=3&ps3=5&fp1=0&fp2=4&fp3=0 HTTP/1.1" 200 -]
+[2024-04-25 12:47:48,434: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.251:8080]
+[2024-04-25 12:47:48,434: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-25 12:47:53,810: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:47:53] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:47:53,815: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:47:53] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:49:24,075: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:49:24] "POST /predict HTTP/1.1" 200 -]
+[2024-04-25 12:52:05,563: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:52:05] "POST /predict HTTP/1.1" 200 -]
+[2024-04-25 12:52:08,939: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:52:08] "POST /predict HTTP/1.1" 200 -]
+[2024-04-25 12:52:34,129: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.251:8080]
+[2024-04-25 12:52:34,131: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-25 12:52:43,422: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:52:43] "GET / HTTP/1.1" 200 -]
+[2024-04-25 12:53:42,964: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 12:53:42] "POST /predict HTTP/1.1" 200 -]
+[2024-04-25 14:07:54,079: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-25 14:07:54,093: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-25 14:07:54,108: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-25 14:07:54,111: INFO: common: created directory at: artifacts]
+[2024-04-25 14:07:54,113: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-04-25 14:07:56,871: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-04-25 15:41:34,128: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.251:8080]
+[2024-04-25 15:41:34,128: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-25 15:41:40,652: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 15:41:40] "GET / HTTP/1.1" 200 -]
+[2024-04-25 15:41:41,219: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 15:41:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-04-25 15:43:02,269: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 15:43:02] "POST /predict HTTP/1.1" 200 -]
+[2024-04-25 15:44:42,071: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.251:8080]
+[2024-04-25 15:44:42,071: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-25 15:45:05,291: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 15:45:05] "GET / HTTP/1.1" 200 -]
+[2024-04-25 15:46:49,840: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 15:46:49] "POST /predict HTTP/1.1" 200 -]
+[2024-04-25 15:57:38,072: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.251:8080]
+[2024-04-25 15:57:38,074: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-25 15:57:43,616: INFO: _internal: 127.0.0.1 - - [25/Apr/2024 15:57:43] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 17:05:15,755: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-19 17:05:15,758: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-19 17:05:15,759: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 17:05:15,761: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-19 17:05:15,762: INFO: common: created directory at: artifacts]
+[2024-05-19 17:05:15,762: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-19 17:05:15,762: INFO: data_ingestion: File already exists of size: ~ 24 KB]
+[2024-05-19 17:05:15,763: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-19 17:05:15,763: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-19 17:05:15,765: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-19 17:05:15,766: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 17:05:15,769: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-19 17:05:15,769: INFO: common: created directory at: artifacts]
+[2024-05-19 17:05:15,769: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-19 17:05:15,779: INFO: stage_02_data_validation: Data validation status: True]
+[2024-05-19 17:05:15,779: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-19 17:05:15,779: INFO: main: >>>>>> stage Data Preprocessing stage started <<<<<<]
+[2024-05-19 17:05:15,782: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-19 17:05:15,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 17:05:15,785: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-19 17:05:15,785: INFO: common: created directory at: artifacts]
+[2024-05-19 17:05:15,786: INFO: common: created directory at: artifacts/data_preprocessing]
+[2024-05-19 17:05:15,795: INFO: data_preprocessing: Dropped Features are:['product_id', 'month_year', 'total_price', 'product_name_lenght', 'product_description_lenght', 's', 'weekday', 'product_photos_qty', 'product_weight_g', 'year']]
+[2024-05-19 17:05:15,796: INFO: data_preprocessing: Preprocessed data saved to: artifacts/data_preprocessing/preprocessed_data.csv]
+[2024-05-19 17:05:15,796: INFO: main: >>>>>> stage Data Preprocessing stage completed <<<<<<
+
+x==========x]
+[2024-05-19 17:05:15,796: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-19 17:05:15,798: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-19 17:05:15,799: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 17:05:15,802: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-19 17:05:15,802: INFO: common: created directory at: artifacts]
+[2024-05-19 17:05:15,802: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-19 17:05:15,810: INFO: data_transformation: Splited data into training and test sets]
+[2024-05-19 17:05:15,810: INFO: data_transformation: (507, 20)]
+[2024-05-19 17:05:15,810: INFO: data_transformation: (169, 20)]
+[2024-05-19 17:05:15,810: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-19 17:05:15,810: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-19 17:05:15,813: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-19 17:05:15,814: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 17:05:15,816: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-19 17:05:15,816: INFO: common: created directory at: artifacts]
+[2024-05-19 17:05:15,816: INFO: common: created directory at: artifacts/model_trainer]
+[2024-05-19 17:05:15,992: INFO: stage_05_model_training: Model trained successfully and saved at: artifacts/model_trainer/model.joblib]
+[2024-05-19 17:05:15,992: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-05-19 17:05:15,992: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-05-19 17:05:15,995: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-19 17:05:15,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 17:05:15,999: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-19 17:05:16,000: INFO: common: created directory at: artifacts]
+[2024-05-19 17:05:16,000: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-05-19 17:05:16,253: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2024-05-19 17:05:18,340: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-19 18:04:27,161: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 18:04:27,162: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 18:05:01,086: INFO: _internal: 127.0.0.1 - - [19/May/2024 18:05:01] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-05-19 18:05:29,028: INFO: _internal: 127.0.0.1 - - [19/May/2024 18:05:29] "GET / HTTP/1.1" 200 -]
+[2024-05-19 18:46:29,890: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-19 18:46:29,892: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-19 18:46:29,898: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-19 18:46:29,898: INFO: common: created directory at: artifacts]
+[2024-05-19 18:46:29,899: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-19 18:46:29,899: INFO: data_ingestion: File already exists of size: ~ 24 KB]
+[2024-05-19 19:15:25,095: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 19:15:25,099: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 19:15:27,835: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:15:27] "GET / HTTP/1.1" 200 -]
+[2024-05-19 19:15:28,241: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:15:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-05-19 19:23:44,824: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:23:44] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:23:54,069: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:23:54] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:33:42,835: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:33:42] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:45:26,431: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 19:45:26,431: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 19:45:34,700: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:45:34] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:45:38,667: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:45:38] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:45:41,802: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:45:41] "GET / HTTP/1.1" 200 -]
+[2024-05-19 19:45:42,874: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:45:42] "GET / HTTP/1.1" 200 -]
+[2024-05-19 19:45:43,598: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:45:43] "GET / HTTP/1.1" 200 -]
+[2024-05-19 19:45:44,817: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:45:44] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:52:26,292: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 19:52:26,293: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 19:52:36,998: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:52:36] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:52:41,391: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:52:41] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:52:44,742: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:52:44] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 19:53:39,407: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:53:39] "GET / HTTP/1.1" 200 -]
+[2024-05-19 19:53:40,479: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:53:40] "GET / HTTP/1.1" 200 -]
+[2024-05-19 19:57:15,573: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 19:57:15,575: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 19:57:23,442: INFO: _internal: 127.0.0.1 - - [19/May/2024 19:57:23] "GET / HTTP/1.1" 200 -]
+[2024-05-19 20:02:57,500: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:02:57] "GET / HTTP/1.1" 200 -]
+[2024-05-19 20:02:58,780: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:02:58] "GET / HTTP/1.1" 200 -]
+[2024-05-19 20:14:44,689: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 20:14:44,690: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 20:14:48,098: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:14:48] "GET / HTTP/1.1" 200 -]
+[2024-05-19 20:16:08,440: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:16:08] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:25:08,949: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 20:25:08,950: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 20:29:33,854: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 20:29:33,856: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 20:29:46,887: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:29:46] "GET / HTTP/1.1" 200 -]
+[2024-05-19 20:31:10,480: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:31:10] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-05-19 20:34:26,569: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:34:26] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:34:55,175: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:34:55] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:38:31,180: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:38:31] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:38:48,261: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:38:48] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:39:12,900: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:39:12] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:39:33,216: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:39:33] "GET /predict HTTP/1.1" 200 -]
+[2024-05-19 20:39:42,701: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:39:42] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:39:54,189: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:39:54] "[31m[1mPOST / HTTP/1.1[0m" 405 -]
+[2024-05-19 20:40:01,335: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:40:01] "POST /predict HTTP/1.1" 200 -]
+[2024-05-19 20:41:08,245: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-19 20:41:08,245: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-19 20:41:12,724: INFO: _internal: 127.0.0.1 - - [19/May/2024 20:41:12] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 10:53:00,680: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 10:53:00,680: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 10:54:14,900: INFO: _internal: 127.0.0.1 - - [20/May/2024 10:54:14] "GET /predict HTTP/1.1" 200 -]
+[2024-05-20 10:54:21,876: INFO: _internal: 127.0.0.1 - - [20/May/2024 10:54:21] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 10:55:33,644: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 10:55:33,645: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 10:55:39,581: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/user/Documents/mlproject/Retail_price_optimization-main/app_1.py", line 32, in index
+    int(input_data[1]),  # qty
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+[2024-05-20 10:55:39,583: INFO: _internal: 127.0.0.1 - - [20/May/2024 10:55:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-20 10:56:49,035: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 10:56:49,037: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 10:56:55,131: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/user/Documents/mlproject/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/user/Documents/mlproject/Retail_price_optimization-main/app_1.py", line 32, in index
+    int(input_data[1]),  # qty
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+[2024-05-20 10:56:55,133: INFO: _internal: 127.0.0.1 - - [20/May/2024 10:56:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-20 12:31:06,497: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 12:31:06,498: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 12:31:53,291: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:31:53] "GET /predict HTTP/1.1" 200 -]
+[2024-05-20 12:31:58,865: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:31:58] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 12:32:33,193: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:32:33] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 12:33:38,611: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:33:38] "GET / HTTP/1.1" 200 -]
+[2024-05-20 12:35:59,865: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:35:59] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 12:48:28,421: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:48:28] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 12:50:50,159: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 12:50:50,161: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 12:50:53,579: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:50:53] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 12:58:00,606: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:58:00] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 12:58:57,806: INFO: _internal: 127.0.0.1 - - [20/May/2024 12:58:57] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:03:25,835: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:03:25] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:05:55,627: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:05:55] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:06:13,583: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:06:13] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:07:33,736: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:07:33] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:09:05,807: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:09:05] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:09:38,455: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:09:38] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:11:10,198: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:11:10] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 13:11:21,161: INFO: _internal: 127.0.0.1 - - [20/May/2024 13:11:21] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 14:46:59,242: INFO: _internal: 127.0.0.1 - - [20/May/2024 14:46:59] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 16:30:03,029: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 16:30:03,029: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 16:32:33,730: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:32:33] "GET /predict HTTP/1.1" 200 -]
+[2024-05-20 16:32:49,541: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:32:49] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 16:38:36,410: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 16:38:36,411: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 16:39:00,236: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:39:00] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 16:41:19,966: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 16:41:19,967: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 16:41:22,291: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:41:22] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2024-05-20 16:45:28,894: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 16:45:28,894: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 16:45:36,345: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:45:36] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 16:51:24,468: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 16:51:24,469: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 16:51:30,468: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:51:30] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 16:51:40,172: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:51:40] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 16:52:05,699: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:52:05] "POST /api/predict HTTP/1.1" 200 -]
+[2024-05-20 16:52:51,392: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:52:51] "GET / HTTP/1.1" 200 -]
+[2024-05-20 16:54:55,456: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:54:55] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 16:55:54,098: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:55:54] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 16:57:40,012: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 16:57:40,013: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 16:57:49,409: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:57:49] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 16:57:56,192: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:57:56] "GET / HTTP/1.1" 200 -]
+[2024-05-20 16:57:58,022: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:57:58] "GET / HTTP/1.1" 200 -]
+[2024-05-20 16:58:00,056: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:58:00] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 16:58:11,343: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:58:11] "GET / HTTP/1.1" 200 -]
+[2024-05-20 16:59:29,766: INFO: _internal: 127.0.0.1 - - [20/May/2024 16:59:29] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 17:01:00,784: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:01:00] "GET /web_predict HTTP/1.1" 200 -]
+[2024-05-20 17:02:36,626: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:02:36] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 17:02:50,356: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:02:50] "GET /web_predict HTTP/1.1" 200 -]
+[2024-05-20 17:03:24,291: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 17:03:24,292: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 17:03:28,039: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:03:28] "POST /api/predict HTTP/1.1" 200 -]
+[2024-05-20 17:03:39,987: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:03:39] "GET / HTTP/1.1" 200 -]
+[2024-05-20 17:05:21,848: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:05:21] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-05-20 17:07:22,940: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-20 17:07:22,941: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-20 17:07:28,531: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:07:28] "POST /predict HTTP/1.1" 200 -]
+[2024-05-20 17:07:44,911: INFO: _internal: 127.0.0.1 - - [20/May/2024 17:07:44] "POST /api/predict HTTP/1.1" 200 -]
