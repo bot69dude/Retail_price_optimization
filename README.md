@@ -112,6 +112,7 @@ The API expects a JSON payload with the following structure:
   "fp2": 5.6,
   "fp3": 5.8
 }
+```
 
 5. Pull the Docker image to Docker Hub for deployment.
     ```bash
