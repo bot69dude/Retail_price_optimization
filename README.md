@@ -90,7 +90,7 @@ To reproduce the project's results, follow these steps:
 
 ## Request Payload
 The API expects a JSON payload with the following structure:
-    ```json
+    ```bash
     {
     "product_category_name": "garden_tools",
     "qty": 2,
