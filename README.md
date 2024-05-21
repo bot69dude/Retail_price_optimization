@@ -80,7 +80,40 @@ To reproduce the project's results, follow these steps:
     export MLFLOW_TRACKING_USERNAME=bot69dude
     export MLFLOW_TRACKING_PASSWORD=559b04e28f7af9242d3e209229040403de58f073
     ```
-    
+
+#**Postman**: Download and install Postman from [Postman's official website](https://www.postman.com/downloads/).
+
+## API Endpoint
+- **Endpoint**: `/api/predict`
+- **Method**: POST
+- **URL**: `http://127.0.0.1:8080/api/predict`
+
+## Request Payload
+The API expects a JSON payload with the following structure:
+    ```json
+    {
+    "product_category_name": "garden_tools",
+    "qty": 2,
+    "freight_price": 7.8,
+    "unit_price": 56.34,
+    "product_score": 4.3,
+    "customers": 1340,
+    "weekend": 1,
+    "holiday": 1,
+    "month": 5,
+    "volume": 3507,
+    "comp_1": 53.97,
+    "comp_2": 63.64,
+    "comp_3": 60.56,
+    "ps1": 4.0,
+    "ps2": 3.8,
+    "ps3": 4.4,
+    "fp1": 5.3,
+    "fp2": 5.6,
+    "fp3": 5.8
+    }
+    ```
+
 5. Pull the Docker image to Docker Hub for deployment.
     ```bash
     docker pull nrithvik19461/prize_opt
