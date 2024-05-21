@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+README.md
+>>>>>>> dev
 setup.py
 MLproject.egg-info/PKG-INFO
 MLproject.egg-info/SOURCES.txt

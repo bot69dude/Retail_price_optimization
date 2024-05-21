@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pandas
 mlflow==2.12.1
 notebook
@@ -10,4 +11,18 @@ tqdm
 ensure==1.0.4
 joblib
 Flask
+=======
+ensure==1.0.4
+fastapi==0.111.0
+joblib
+matplotlib
+mlflow==2.12.1
+notebook
+numpy
+pandas
+pyYAML
+python-box==7.1.1
+scikit-learn
+tqdm
+>>>>>>> dev
 xgboost==2.0.3

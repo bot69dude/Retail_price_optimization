@@ -47,6 +47,7 @@
     }
 </style>
 <script>
+<<<<<<< HEAD
 function validateForm() {
     // Get input elements
     var qty = document.getElementById("qty").value;
@@ -91,6 +92,73 @@ function validateForm() {
     return true;
 }
 </script>
+=======
+    function validateForm() {
+        // Get input elements
+        var qty = document.getElementById("qty").value;
+        var freightPrice = document.getElementById("freight_price").value;
+        var unitPrice = document.getElementById("unit_price").value;
+        var productScore = document.getElementById("product_score").value;
+        var customers = document.getElementById("customers").value;
+        var month = document.getElementById("month").value;
+        var volume = document.getElementById("volume").value;
+    
+        // Validate input values
+        if (parseFloat(qty) >= 1 && parseFloat(qty) <= 1000) {
+            // Quantity is valid
+        } else {
+            alert("Quantity must be between 1 and 1000.");
+            return false;
+        }
+    
+        if (parseFloat(freightPrice) >= 0 && parseFloat(freightPrice) <= 80) {
+            // Freight price is valid
+        } else {
+            alert("Freight price must be between 0 and 80.");
+            return false;
+        }
+    
+        if (parseFloat(unitPrice) >= 0 && parseFloat(unitPrice) <= 1000) {
+            // Unit price is valid
+        } else {
+            alert("Unit price must be between 0 and 1000.");
+            return false;
+        }
+    
+        if (parseFloat(productScore) >= 1 && parseFloat(productScore) < 5) {
+            // Product score is valid
+        } else {
+            alert("Product score must be between 1 and 5.");
+            return false;
+        }
+    
+        if (parseFloat(customers) >= 1 && parseFloat(customers) <= 10000) {
+            // Customers count is valid
+        } else {
+            alert("Customers must be between 1 and 10000.");
+            return false;
+        }
+    
+        if (parseFloat(month) >= 1 && parseFloat(month) <= 12) {
+            // Month is valid
+        } else {
+            alert("Month must be between 1 and 12.");
+            return false;
+        }
+    
+        if (parseFloat(volume) >= 640 && parseFloat(volume) <= 32736) {
+            // Volume is valid
+        } else {
+            alert("Volume must be between 640 and 32736.");
+            return false;
+        }
+    
+        // If all validations pass, return true
+        return true;
+    }
+</script>
+    
+>>>>>>> dev
 </head>
 <body>
 
