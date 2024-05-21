@@ -90,29 +90,28 @@ To reproduce the project's results, follow these steps:
 
 ## Request Payload
 The API expects a JSON payload with the following structure:
-    ```bash
-    {
-    "product_category_name": "garden_tools",
-    "qty": 2,
-    "freight_price": 7.8,
-    "unit_price": 56.34,
-    "product_score": 4.3,
-    "customers": 1340,
-    "weekend": 1,
-    "holiday": 1,
-    "month": 5,
-    "volume": 3507,
-    "comp_1": 53.97,
-    "comp_2": 63.64,
-    "comp_3": 60.56,
-    "ps1": 4.0,
-    "ps2": 3.8,
-    "ps3": 4.4,
-    "fp1": 5.3,
-    "fp2": 5.6,
-    "fp3": 5.8
-    }
-    ```
+```bash
+{
+  "product_category_name": "garden_tools",
+  "qty": 2,
+  "freight_price": 7.8,
+  "unit_price": 56.34,
+  "product_score": 4.3,
+  "customers": 1340,
+  "weekend": 1,
+  "holiday": 1,
+  "month": 5,
+  "volume": 3507,
+  "comp_1": 53.97,
+  "comp_2": 63.64,
+  "comp_3": 60.56,
+  "ps1": 4.0,
+  "ps2": 3.8,
+  "ps3": 4.4,
+  "fp1": 5.3,
+  "fp2": 5.6,
+  "fp3": 5.8
+}
 
 5. Pull the Docker image to Docker Hub for deployment.
     ```bash
