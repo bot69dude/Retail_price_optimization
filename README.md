@@ -110,7 +110,7 @@ The API expects a JSON payload with the following structure:
   "ps3": 4.4,
   "fp1": 5.3,
   "fp2": 5.6,
-  "fp3": 5.8
+  "fp3": 5.2
 }
 ```
 
