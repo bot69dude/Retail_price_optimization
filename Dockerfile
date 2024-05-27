@@ -6,8 +6,6 @@ WORKDIR /app
 COPY . /app
 RUN pip install -r requirements.txt
 
-RUN python main.py
-
 EXPOSE 8081
 
 CMD ["python3", "app.py"]
