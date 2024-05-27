@@ -654,3 +654,14 @@ x==========x]
 [2024-05-21 23:11:08,230: INFO: _internal: 127.0.0.1 - - [21/May/2024 23:11:08] "POST /api/predict HTTP/1.1" 200 -]
 [2024-05-21 23:11:34,178: INFO: _internal: 127.0.0.1 - - [21/May/2024 23:11:34] "POST /api/predict HTTP/1.1" 200 -]
 [2024-05-21 23:11:46,499: INFO: _internal: 127.0.0.1 - - [21/May/2024 23:11:46] "POST /api/predict HTTP/1.1" 200 -]
+[2024-05-24 22:56:37,045: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-24 22:56:37,045: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-24 22:57:41,377: INFO: _internal: 127.0.0.1 - - [24/May/2024 22:57:41] "POST /api/predict HTTP/1.1" 200 -]
+[2024-05-27 16:29:24,393: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.2.135.165:8080]
+[2024-05-27 16:29:24,393: INFO: _internal: [33mPress CTRL+C to quit[0m]
