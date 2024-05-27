@@ -665,3 +665,13 @@ x==========x]
  * Running on http://127.0.0.1:8080
  * Running on http://10.2.135.165:8080]
 [2024-05-27 16:29:24,393: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-27 20:57:28,376: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.12:8080]
+[2024-05-27 20:57:28,376: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-27 20:58:21,549: INFO: _internal: 127.0.0.1 - - [27/May/2024 20:58:21] "POST /api/predict HTTP/1.1" 200 -]
+[2024-05-27 20:58:47,717: INFO: _internal: 127.0.0.1 - - [27/May/2024 20:58:47] "GET / HTTP/1.1" 200 -]
+[2024-05-27 20:58:48,280: INFO: _internal: 127.0.0.1 - - [27/May/2024 20:58:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-05-27 20:59:05,539: INFO: _internal: 127.0.0.1 - - [27/May/2024 20:59:05] "GET / HTTP/1.1" 200 -]
+[2024-05-27 20:59:40,134: INFO: _internal: 127.0.0.1 - - [27/May/2024 20:59:40] "GET / HTTP/1.1" 200 -]
